@@ -1,0 +1,34 @@
+.section-1 {
+  background-image: url("../img/bg-s-1.png");
+  height: 68.5rem;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 12rem 18.3%;
+  .container-flex {
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-flow: row;
+    height: 44.5rem;
+    .why {
+      width: 53rem;
+      text-align: left;
+    }
+    .imgs {
+      margin: 0;
+      position: relative;
+      width: 47.5rem;
+      height: 44.5rem;
+      .img-1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .img-2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+}

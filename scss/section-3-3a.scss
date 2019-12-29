@@ -1,0 +1,31 @@
+.section-3 {
+  position: relative;
+  height: 70rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 18.3%;
+  .article {
+    padding: 4.7rem 3rem;
+    position: absolute;
+    bottom: 10rem;
+    width: 54rem;
+    height: 37.1rem;
+    background-color: rgba(35, 35, 35, 0.9);
+    h4 {
+      margin: 2.7rem 0;
+      &:first-child {
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        color: rgb(232, 232, 232);
+        margin: 0;
+      }
+    }
+    h5 {
+      letter-spacing: 0.5px;
+    }
+  }
+}
+.section-3a {
+  background-image: url("../img/bg-s-3.png");
+}

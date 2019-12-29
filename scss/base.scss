@@ -1,0 +1,187 @@
+@import 'buttons.scss';
+@import 'icons.scss';
+@import 'section-1.scss';
+@import 'section-2.scss';
+@import 'section-3-3a.scss';
+@import 'section-3b.scss';
+@import 'section-5.scss';
+@import 'utils.scss';
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  padding: 1.5rem;
+}
+
+header {
+  position: relative;
+  background-image: url("../img/bg-header.png");
+  height: 82rem;
+  width: 100%;
+  background-size: cover;
+  background-position: right;
+  main {
+    height: 34rem;
+    width: 65rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    > div {
+      margin: 6% 0;
+    }
+    .title-head {
+      line-height: 2.6rem;
+      h1 {
+        font-size: 4.8rem;
+        letter-spacing: 0.5rem;
+        margin: 2rem;
+      }
+      h4 {
+        font-size: 2.2rem;
+        letter-spacing: 0.7rem;
+      }
+    }
+    .input {
+      display: flex;
+      flex-flow: row;
+      input {
+        border: 2px solid white;
+        background-color: #ffffff;
+        width: 50rem;
+        height: 6rem;
+
+      } 
+      ::placeholder {
+        font-size: 1.4rem;
+        letter-spacing: 3px;
+        line-height: 2.6rem;
+        color: #999999;
+        font-family: JosefinSans-Thin;
+      }
+    }
+    .scroll {
+      margin: 15% 0;
+      font-size: 1.4rem;
+      letter-spacing: 3px;
+      line-height: 2.6rem;
+      color: rgb(255, 255, 255);
+      font-family: JosefinSans-Thin;
+    }
+  }
+  footer {
+    padding: 0 18.3%;
+    height: 8rem;
+    width: 100%;
+    background-color: #5474fd;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    line-height: 2.6rem;
+    .logo {
+      h2 {
+        text-transform: uppercase;
+        margin: 0;
+      }
+      font-size: 2.4rem;
+      letter-spacing: 2px;
+      color: rgb(255, 255, 255);
+      font-family: JosefinSans-Bold;
+    }
+    .menu {
+      ul {
+        display: flex;
+        flex-flow: row;
+        width: 52.5rem;
+        justify-content: space-between;
+        li a {
+          font-size: 1.4rem;
+          color: rgb(255, 255, 255);
+          font-family: Aleo-Regular;
+        }
+      }
+    }
+  }
+}
+
+
+footer {
+  background-color: rgb(35, 35, 35);
+  height: 26.8rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  .title {
+    margin-top: 3rem;
+    letter-spacing: 1px;
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+    }
+    h4 {
+      font-size: 1.6rem;
+      text-transform: capitalize;
+    }
+  }
+  .logos {
+    width: 15.6rem;
+    margin: 2rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .ti-facebook, .ti-twitter-alt, .ti-pinterest-alt, .ti-youtube {
+      color: hsl(0, 0%, 100%);
+      font-size: 1.6rem;
+    }
+    .ti:hover {
+      color: violet;
+    }
+    .ti-linkedin {
+      color: rgb(84, 116, 253);
+    }
+  }
+}
+
+
+
+
+
+
+@font-face {
+  font-family: Aleo-Regular;
+  src: url("../fonts/aleo/Aleo-Regular.otf");
+}
+
+@font-face {
+  font-family: JosefinSans-Bold;
+  src: url("../fonts/josefin-sans/JosefinSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: JosefinSans-Light;
+  src: url("../fonts/josefin-sans/JosefinSans-Light.ttf");
+}
+
+@font-face {
+  font-family: JosefinSans-Thin;
+  src: url("../fonts/josefin-sans/JosefinSans-Thin.ttf");
+}
